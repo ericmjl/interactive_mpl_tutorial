@@ -144,7 +144,6 @@ class StationPicker:
 
 def plot_station_locations(fig, fih, pick_radius=10):
     fig.clf()
-    fig.add_subplot(1, 1, 1, projection=cartopy.crs.PlateCarree())
 
     countries = cfeature.NaturalEarthFeature(
             category='cultural',
